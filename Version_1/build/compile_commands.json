@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/home/yxz/MemoryPool/Version_1/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_1/include -Wall -O2 -o CMakeFiles/MemoryPool_mutex.dir/src/Test_mutex.cpp.o -c /home/yxz/MemoryPool/Version_1/src/Test_mutex.cpp",
+  "file": "/home/yxz/MemoryPool/Version_1/src/Test_mutex.cpp",
+  "output": "CMakeFiles/MemoryPool_mutex.dir/src/Test_mutex.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_1/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_1/include -Wall -O2 -o CMakeFiles/MemoryPool_mutex.dir/src/MemoryPool_mutex.cpp.o -c /home/yxz/MemoryPool/Version_1/src/MemoryPool_mutex.cpp",
+  "file": "/home/yxz/MemoryPool/Version_1/src/MemoryPool_mutex.cpp",
+  "output": "CMakeFiles/MemoryPool_mutex.dir/src/MemoryPool_mutex.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_1/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_1/include -Wall -O2 -o CMakeFiles/MemoryPool_CAS.dir/src/Test_CAS.cpp.o -c /home/yxz/MemoryPool/Version_1/src/Test_CAS.cpp",
+  "file": "/home/yxz/MemoryPool/Version_1/src/Test_CAS.cpp",
+  "output": "CMakeFiles/MemoryPool_CAS.dir/src/Test_CAS.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_1/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_1/include -Wall -O2 -o CMakeFiles/MemoryPool_CAS.dir/src/MemoryPool_CAS.cpp.o -c /home/yxz/MemoryPool/Version_1/src/MemoryPool_CAS.cpp",
+  "file": "/home/yxz/MemoryPool/Version_1/src/MemoryPool_CAS.cpp",
+  "output": "CMakeFiles/MemoryPool_CAS.dir/src/MemoryPool_CAS.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_1/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_1/include -Wall -O2 -o CMakeFiles/MemoryPool_comprate.dir/src/Test_compare.cpp.o -c /home/yxz/MemoryPool/Version_1/src/Test_compare.cpp",
+  "file": "/home/yxz/MemoryPool/Version_1/src/Test_compare.cpp",
+  "output": "CMakeFiles/MemoryPool_comprate.dir/src/Test_compare.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_1/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_1/include -Wall -O2 -o CMakeFiles/MemoryPool_comprate.dir/src/MemoryPool_CAS.cpp.o -c /home/yxz/MemoryPool/Version_1/src/MemoryPool_CAS.cpp",
+  "file": "/home/yxz/MemoryPool/Version_1/src/MemoryPool_CAS.cpp",
+  "output": "CMakeFiles/MemoryPool_comprate.dir/src/MemoryPool_CAS.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_1/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_1/include -Wall -O2 -o CMakeFiles/MemoryPool_comprate.dir/src/MemoryPool_mutex.cpp.o -c /home/yxz/MemoryPool/Version_1/src/MemoryPool_mutex.cpp",
+  "file": "/home/yxz/MemoryPool/Version_1/src/MemoryPool_mutex.cpp",
+  "output": "CMakeFiles/MemoryPool_comprate.dir/src/MemoryPool_mutex.cpp.o"
+}
+]

@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/yxz/MemoryPool/Version_3/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_3/include -g -Wall -O2 -o CMakeFiles/memoryPool_test.dir/test/memoryPool_test.cpp.o -c /home/yxz/MemoryPool/Version_3/test/memoryPool_test.cpp",
+  "file": "/home/yxz/MemoryPool/Version_3/test/memoryPool_test.cpp",
+  "output": "CMakeFiles/memoryPool_test.dir/test/memoryPool_test.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_3/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_3/include -g -Wall -O2 -o CMakeFiles/memoryPool_test.dir/src/CentralCache.cpp.o -c /home/yxz/MemoryPool/Version_3/src/CentralCache.cpp",
+  "file": "/home/yxz/MemoryPool/Version_3/src/CentralCache.cpp",
+  "output": "CMakeFiles/memoryPool_test.dir/src/CentralCache.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_3/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_3/include -g -Wall -O2 -o CMakeFiles/memoryPool_test.dir/src/PageCache.cpp.o -c /home/yxz/MemoryPool/Version_3/src/PageCache.cpp",
+  "file": "/home/yxz/MemoryPool/Version_3/src/PageCache.cpp",
+  "output": "CMakeFiles/memoryPool_test.dir/src/PageCache.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/Version_3/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/Version_3/include -g -Wall -O2 -o CMakeFiles/memoryPool_test.dir/src/ThreadCache.cpp.o -c /home/yxz/MemoryPool/Version_3/src/ThreadCache.cpp",
+  "file": "/home/yxz/MemoryPool/Version_3/src/ThreadCache.cpp",
+  "output": "CMakeFiles/memoryPool_test.dir/src/ThreadCache.cpp.o"
+}
+]

@@ -1,0 +1,3 @@
+/home/yxz/MemoryPool/Version_3/build/CMakeFiles/memoryPool_test.dir
+/home/yxz/MemoryPool/Version_3/build/CMakeFiles/edit_cache.dir
+/home/yxz/MemoryPool/Version_3/build/CMakeFiles/rebuild_cache.dir
