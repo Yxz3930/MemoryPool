@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/yxz/MemoryPool/MemoryPool_SmartPointer/lib/libMemoryPool.a CMakeFiles/MemoryPool.dir/MemoryPool_CAS.cpp.o
+/usr/bin/ranlib /home/yxz/MemoryPool/MemoryPool_SmartPointer/lib/libMemoryPool.a

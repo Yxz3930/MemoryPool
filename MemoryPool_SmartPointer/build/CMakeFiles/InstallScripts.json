@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/yxz/MemoryPool/MemoryPool_SmartPointer/build/cmake_install.cmake",
+		"/home/yxz/MemoryPool/MemoryPool_SmartPointer/build/MemoryPool/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

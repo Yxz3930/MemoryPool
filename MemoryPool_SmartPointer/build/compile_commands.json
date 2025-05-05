@@ -1,0 +1,26 @@
+[
+{
+  "directory": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/build",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/. -g -o CMakeFiles/SmartPointer.dir/CustomDefinedSmartPointer/SmartPointer.cpp.o -c /home/yxz/MemoryPool/MemoryPool_SmartPointer/CustomDefinedSmartPointer/SmartPointer.cpp",
+  "file": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/CustomDefinedSmartPointer/SmartPointer.cpp",
+  "output": "CMakeFiles/SmartPointer.dir/CustomDefinedSmartPointer/SmartPointer.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/build/MemoryPool",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/. -g -o CMakeFiles/MemoryPool.dir/MemoryPool_CAS.cpp.o -c /home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/MemoryPool_CAS.cpp",
+  "file": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/MemoryPool_CAS.cpp",
+  "output": "MemoryPool/CMakeFiles/MemoryPool.dir/MemoryPool_CAS.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/build/MemoryPool",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/. -g -Wall -O2 -o CMakeFiles/Test_CAS.dir/test/Test_CAS.cpp.o -c /home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/test/Test_CAS.cpp",
+  "file": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/test/Test_CAS.cpp",
+  "output": "MemoryPool/CMakeFiles/Test_CAS.dir/test/Test_CAS.cpp.o"
+},
+{
+  "directory": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/build/MemoryPool",
+  "command": "/usr/bin/c++  -I/home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/. -g -Wall -O2 -o CMakeFiles/Test_CAS.dir/MemoryPool_CAS.cpp.o -c /home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/MemoryPool_CAS.cpp",
+  "file": "/home/yxz/MemoryPool/MemoryPool_SmartPointer/MemoryPool/MemoryPool_CAS.cpp",
+  "output": "MemoryPool/CMakeFiles/Test_CAS.dir/MemoryPool_CAS.cpp.o"
+}
+]
