@@ -22,6 +22,7 @@ namespace memory_pool
         {
             // 如果存在这样的内存页
             SpanPage* spanPage = it->second;
+            size_t _pageNums = spanPage->pageNums;
             if(spanPage->pageNums > pageNums)
             {
                 SpanPage* newSpanPage = new SpanPage;
@@ -30,9 +31,20 @@ namespace memory_pool
                 newSpanPage->startAddr = reinterpret_cast<void*>(reinterpret_cast<size_t>(spanPage->startAddr) + pageNums * PAGE_SIZE);
 
                 spanPage->pageNums = pageNums;
+
+                // 将new出来的SpanPage放入到对应的链表当中
+                SpanPage* oldHead = this->m_freePageMap[newSpanPage->pageNums];
+                newSpanPage->next = oldHead;
                 this->m_freePageMap[newSpanPage->pageNums] = newSpanPage;
-                this->m_recordPageMap[newSpanPage->startAddr] = newSpanPage;
+                
+                // 放入到记录的unordered_map当中
+                this->m_recordPageMap[newSpanPage->startAddr] = newSpanPage;    
             }
+            
+            // 将原来的spanPage从链表中移除 只需要将头节点移除即可 因为spanPage本身就是头节点
+            SpanPage* nextPage = spanPage->next;
+            spanPage->next = nullptr;
+            this->m_freePageMap[_pageNums] = nextPage;
 
             this->m_recordPageMap[spanPage->startAddr] = spanPage;
             return spanPage->startAddr;
@@ -40,6 +52,8 @@ namespace memory_pool
 
         // 如果页面缓存中没有这么大小的内存页 则向系统申请
         void* retAddr = this->systemAlloc(pageNums);
+        if(!retAddr)
+            return nullptr;
         SpanPage* spanPage = new SpanPage;
         spanPage->next = nullptr;
         spanPage->pageNums = pageNums;

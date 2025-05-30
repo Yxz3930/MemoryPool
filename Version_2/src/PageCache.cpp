@@ -28,7 +28,7 @@ namespace memory_pool
         {
             // 获取对应大小的内存页
             SpanPage *spanPage = it->second;
-
+            size_t _pageNums = spanPage->numPages;
             // 链表操作 判断是否只存在一个节点
             if (spanPage->next == nullptr)
                 this->m_pageFreeMap.erase(it);
@@ -56,25 +56,28 @@ namespace memory_pool
                 // 分割之后内存页数量等于给定的参数值
                 spanPage->numPages = numPages;
             }
-            // 这里也要记录一下 因为这是从大的内存页中分出去的一部分
+            // 将原来的spanPage从链表中移除 只需要将头节点移除即可 因为spanPage本身就是头节点
+            SpanPage* nextPage = spanPage->next;
+            spanPage->next = nullptr;
+            this->m_pageFreeMap[_pageNums] = nextPage;
+
             this->m_recordMemoryMap[spanPage->startAddr] = spanPage;
             return spanPage->startAddr;
         }
         // 如果没有找到对应大小的内存页 那么就需要从系统中申请
-        else
-        {
-            void *addr = this->MmapAllocate(numPages);
-            SpanPage *spanPage = new SpanPage();
-            spanPage->next = nullptr;
-            spanPage->numPages = numPages;
-            spanPage->startAddr = addr;
 
-            // 将申请的内存在map中记录一下 用于最后的释放内存
-            this->m_recordMemoryMap[addr] = spanPage;
+        void *addr = this->MmapAllocate(numPages);
+        if(!addr)
+            return nullptr;
+        SpanPage *spanPage = new SpanPage();
+        spanPage->next = nullptr;
+        spanPage->numPages = numPages;
+        spanPage->startAddr = addr;
 
-            return addr;
-        }
-        return nullptr;
+        // 将申请的内存在map中记录一下 用于最后的释放内存
+        this->m_recordMemoryMap[addr] = spanPage;
+
+        return addr;
     }
 
     void PageCache::deallocateSpanPage(void *ptr, size_t numPages)
