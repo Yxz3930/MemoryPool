@@ -60,10 +60,10 @@ namespace memory_pool
         // 页面缓存的互斥锁
         std::mutex m_pageMutex;
 
-        // 保存内存页大小和SpanPage*的链表Map
+        // 保存内存页大小和SpanPage*的链表Map 第一个位置是内存页的大小 第二个位置是内存页链表
         std::map<size_t, SpanPage *> m_freePageMap;
 
-        // 记录分配出去的以及保存在m_freePageMap中的内存页
+        // 记录分配出去的以及保存在m_freePageMap中的内存页 第一个位置是内存页地址 第二个位置是内存页的地址(不是链表)
         std::unordered_map<void *, SpanPage *> m_recordPageMap;
     };
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yxz/MemoryPool/Version_2/output/MemoryPool"
-  "/home/yxz/MemoryPool/Version_2/output/MemoryPool.pdb"
+  "../output/MemoryPool"
+  "../output/MemoryPool.pdb"
   "CMakeFiles/MemoryPool.dir/src/CentralCache.cpp.o"
   "CMakeFiles/MemoryPool.dir/src/CentralCache.cpp.o.d"
   "CMakeFiles/MemoryPool.dir/src/PageCache.cpp.o"

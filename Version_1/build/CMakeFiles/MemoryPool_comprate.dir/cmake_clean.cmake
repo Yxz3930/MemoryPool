@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/yxz/MemoryPool/Version_1/output/MemoryPool_comprate"
-  "/home/yxz/MemoryPool/Version_1/output/MemoryPool_comprate.pdb"
+  "../output/MemoryPool_comprate"
+  "../output/MemoryPool_comprate.pdb"
   "CMakeFiles/MemoryPool_comprate.dir/src/MemoryPool_CAS.cpp.o"
   "CMakeFiles/MemoryPool_comprate.dir/src/MemoryPool_CAS.cpp.o.d"
   "CMakeFiles/MemoryPool_comprate.dir/src/MemoryPool_mutex.cpp.o"

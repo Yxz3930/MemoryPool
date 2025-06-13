@@ -55,7 +55,8 @@
         "thread": "cpp",
         "typeinfo": "cpp",
         "map": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "cinttypes": "cpp"
     },
     "cmake.sourceDirectory": "/home/yxz/MemoryPool/Version_1"
 }

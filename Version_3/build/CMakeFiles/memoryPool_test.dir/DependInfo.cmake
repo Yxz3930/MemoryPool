@@ -14,12 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/yxz/MemoryPool/Version_3/test/memoryPool_test.cpp" "CMakeFiles/memoryPool_test.dir/test/memoryPool_test.cpp.o" "gcc" "CMakeFiles/memoryPool_test.dir/test/memoryPool_test.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
-  )
-
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

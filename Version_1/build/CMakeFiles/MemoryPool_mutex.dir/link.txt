@@ -1,1 +1,1 @@
-/usr/bin/c++ CMakeFiles/MemoryPool_mutex.dir/src/Test_mutex.cpp.o CMakeFiles/MemoryPool_mutex.dir/src/MemoryPool_mutex.cpp.o -o /home/yxz/MemoryPool/Version_1/output/MemoryPool_mutex
+/usr/bin/c++ CMakeFiles/MemoryPool_mutex.dir/src/Test_mutex.cpp.o CMakeFiles/MemoryPool_mutex.dir/src/MemoryPool_mutex.cpp.o -o ../output/MemoryPool_mutex 
